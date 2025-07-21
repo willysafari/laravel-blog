@@ -1,0 +1,49 @@
+INSERT INTO laravel.posts
+(id, category_id, user_id, slug, title, excerpt, body, published_at, created_at, updated_at)
+VALUES(1, 1, 1, 'ipsam-vero-quo-voluptatem-quod-cupiditate-fugiat-unde', 'Velit molestiae ut voluptas repellendus.', 'Qui velit ad ut eum dolores aut. Alias a molestiae rerum est. Vitae itaque cumque perferendis.',
+ 'Repudiandae amet a eligendi aut sit repudiandae ipsa. 
+ Rerum dolore tenetur velit et mollitia tempore voluptatem. 
+ Officia ut ut itaque rerum ratione est repellat. Ut saepe 
+ provident deleniti illo saepe ut a odio.', NULL, '2025-07-06 17:39:51', '2025-07-06 17:39:51');
+INSERT INTO laravel.posts
+(id, category_id, user_id, slug, title, excerpt, body, published_at, created_at, updated_at)
+VALUES(2, 2, 1, 'et-non-nobis-aliquam-alias-voluptate-possimus', 'Soluta fugit ut aut veniam quia nihil.', 'Voluptatem nesciunt distinctio sit. Dolore repellat eum recusandae quis. Ut eaque dolore ut eos.', 'Sunt quae expedita velit enim perferendis sint quisquam. Alias et sit blanditiis atque. Blanditiis exercitationem modi quae ut eaque. Expedita voluptatem aut repudiandae iste ipsam ea sed.', NULL, '2025-07-06 17:39:51', '2025-07-06 17:39:51');
+INSERT INTO laravel.posts
+(id, category_id, user_id, slug, title, excerpt, body, published_at, created_at, updated_at)
+VALUES(3, 3, 1, 'sed-error-aspernatur-in-sint-asperiores', 'Sunt officiis deleniti ea minima.', 'Veniam blanditiis nulla soluta nisi. Harum sit ducimus autem fugit.', 'Illo sequi similique iusto quo accusantium. Dolore non incidunt ducimus corrupti. Provident maxime perferendis perferendis dolorem. Illum voluptates est accusantium assumenda reprehenderit eaque.', NULL, '2025-07-06 17:39:51', '2025-07-06 17:39:51');
+INSERT INTO laravel.posts
+(id, category_id, user_id, slug, title, excerpt, body, published_at, created_at, updated_at)
+VALUES(4, 4, 1, 'id-deleniti-eaque-deleniti-tempora', 'Excepturi reiciendis quas nemo ducimus est rerum.', 'Soluta molestiae et ut fuga. Autem aut ducimus distinctio minus minus minus totam.', 'Fugiat quis totam nemo et iure. Et iure quidem ab quisquam suscipit quibusdam. Illo est debitis architecto placeat perferendis ad adipisci in. Hic qui animi qui repellat odio facilis.', NULL, '2025-07-06 17:39:51', '2025-07-06 17:39:51');
+INSERT INTO laravel.posts
+(id, category_id, user_id, slug, title, excerpt, body, published_at, created_at, updated_at)
+VALUES(5, 5, 1, 'et-a-et-cumque-velit-sed', 'Et non qui ullam et in minima magnam.', 'Enim aperiam rerum aut consequatur mollitia. Reiciendis praesentium necessitatibus rem.', 'Tenetur numquam blanditiis provident ut suscipit. In officiis id temporibus sequi deserunt mollitia. Rerum et eveniet debitis quis sed odio.', NULL, '2025-07-06 17:39:51', '2025-07-06 17:39:51');
+INSERT INTO laravel.posts
+(id, category_id, user_id, slug, title, excerpt, body, published_at, created_at, updated_at)
+VALUES(6, 1, 10, 'et-laudantium-autem-illo-optio-qui-voluptas', 'Id neque qui dolorem.', 'In aut vel et et. Dolorem explicabo at dolore voluptatem. Qui illo nesciunt impedit ipsa dolor et.', 'Sed omnis repudiandae repudiandae ea. Sint labore id a incidunt. Ullam totam rerum eius et eos asperiores ut. Ut commodi ea vel quia.', NULL, '2025-07-07 14:54:36', '2025-07-07 14:54:36');
+INSERT INTO laravel.posts
+(id, category_id, user_id, slug, title, excerpt, body, published_at, created_at, updated_at)
+VALUES(7, 1, 11, 'quos-sed-illum-quibusdam-ad-recusandae-quia', 'Ex architecto quia possimus.', 'Ad dolore possimus amet ab iusto. Ipsa voluptatem laboriosam repudiandae ratione.', 'Ut dolorum eum non et odit. Aut voluptas harum iure sit. Perspiciatis quis doloremque consequatur qui. Et maiores ab et ad eos dolore voluptas excepturi.', NULL, '2025-07-07 14:54:37', '2025-07-07 14:54:37');
+INSERT INTO laravel.posts
+(id, category_id, user_id, slug, title, excerpt, body, published_at, created_at, updated_at)
+VALUES(8, 1, 12, 'assumenda-nostrum-molestiae-recusandae', 'Illum laboriosam est velit.', 'Ut ut error minus totam. Sunt qui itaque dolorum ea.', 'Aut et ut maxime quod rerum asperiores. Iste et facere corporis sint nulla. Voluptas excepturi vero rerum.', NULL, '2025-07-07 14:54:37', '2025-07-07 14:54:37');
+INSERT INTO laravel.posts
+(id, category_id, user_id, slug, title, excerpt, body, published_at, created_at, updated_at)
+VALUES(9, 1, 13, 'rerum-et-sed-voluptas-quo-mollitia-veniam', 'Illo modi quia tempore vero recusandae praesentium suscipit.', 'Autem et inventore veritatis. Perferendis neque ea aut. Suscipit ipsum placeat in.', 'Et incidunt eius officia facere voluptate molestias fuga. Occaecati adipisci ut odit adipisci facilis fugit enim repudiandae. Officia quam accusamus quae dolor ut. Deserunt iste vitae aliquid eius.', NULL, '2025-07-07 14:54:37', '2025-07-07 14:54:37');
+INSERT INTO laravel.posts
+(id, category_id, user_id, slug, title, excerpt, body, published_at, created_at, updated_at)
+VALUES(10, 1, 14, 'quis-et-est-dolorum-at-deserunt-velit', 'Dolor error exercitationem est cumque nihil blanditiis minus.', 'Qui temporibus explicabo sint officia dolorem placeat sint sequi. Repellendus eum illo modi quia.', 'Dolorem molestiae tempore facilis expedita. Aspernatur libero voluptatibus enim est non molestiae vitae. Sed rem cupiditate perferendis doloribus odit dolores debitis. Dolor fuga dolores autem possimus cum nulla. Mollitia culpa praesentium maxime eum repellendus aut consequatur possimus.', NULL, '2025-07-07 14:54:37', '2025-07-07 14:54:37');
+INSERT INTO laravel.posts
+(id, category_id, user_id, slug, title, excerpt, body, published_at, created_at, updated_at)
+VALUES(11, 1, 15, 'voluptates-rerum-unde-minima-quos-voluptatem', 'Sapiente at quis voluptate dolores.', 'Quos exercitationem veniam fugit. Tempora omnis odit fuga molestiae iure. Est in voluptatem iure.', 'Sed enim deleniti beatae rerum soluta. Dolore vero ut et temporibus. Molestiae sit consequatur eligendi velit. Corrupti tempora cum nobis.', NULL, '2025-07-07 14:54:37', '2025-07-07 14:54:37');
+INSERT INTO laravel.posts
+(id, category_id, user_id, slug, title, excerpt, body, published_at, created_at, updated_at)
+VALUES(12, 1, 16, 'assumenda-excepturi-possimus-maiores-eligendi-ipsam-laborum-consectetur-est', 'Molestias voluptas iste repellendus corrupti qui.', 'Nesciunt natus vel ex. Veritatis laborum sit facere in eligendi. Accusamus libero et modi itaque.', 'Sit mollitia maxime est quis labore sit. Velit nemo expedita enim et eius provident. Magnam eos facilis voluptate culpa asperiores.', NULL, '2025-07-07 14:54:37', '2025-07-07 14:54:37');
+INSERT INTO laravel.posts
+(id, category_id, user_id, slug, title, excerpt, body, published_at, created_at, updated_at)
+VALUES(13, 1, 17, 'ut-neque-quae-quia-aut', 'Ducimus dolores et est accusamus corporis.', 'Quae quos et quia et tempore sed. Dolores deleniti velit natus quia aliquid ducimus.', 'Expedita doloribus ipsa et neque in recusandae aut dolorem. Aut sint excepturi dolore et quam. Libero consequuntur id dolore minus.', NULL, '2025-07-07 14:54:37', '2025-07-07 14:54:37');
+INSERT INTO laravel.posts
+(id, category_id, user_id, slug, title, excerpt, body, published_at, created_at, updated_at)
+VALUES(14, 1, 18, 'et-quia-est-ipsum-occaecati-perferendis-aut', 'Laborum aspernatur et vel aspernatur sunt architecto aut.', 'Qui tempora ut quasi et. Dolor maxime debitis omnis nemo. Omnis ut inventore nostrum a nihil vitae.', 'Accusamus quisquam est minima ad. Iusto sunt nemo vel reiciendis rerum explicabo ut.', NULL, '2025-07-07 14:54:38', '2025-07-07 14:54:38');
+INSERT INTO laravel.posts
+(id, category_id, user_id, slug, title, excerpt, body, published_at, created_at, updated_at)
+VALUES(15, 1, 19, 'labore-odio-ut-dolores-aut-et', 'Omnis sed voluptas ratione.', 'Rerum ut consequatur sint in. Autem dolorum sed nesciunt quidem.', 'Odio veritatis quod animi unde ea. Et ad aut aut dicta ratione delectus et ipsum. Porro distinctio est similique aliquid ratione et dolores nam. Dolor dolorem praesentium quo inventore. Optio ut dolores magnam autem deleniti explicabo.', NULL, '2025-07-07 14:54:38', '2025-07-07 14:54:38');

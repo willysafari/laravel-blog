@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(232, 235, 234);
+    color: rgb(12, 1, 1);
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    max-width: 600px;
+    margin: auto;	
+}
+
+p{
+    line-height: 1.5;
+    margin-bottom: 1em;
+}
+article{
+    margin-bottom: 2em;
+    margin-top: 2em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
