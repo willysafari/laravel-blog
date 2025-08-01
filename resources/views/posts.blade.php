@@ -5,14 +5,17 @@
           @if ($posts->count())
     
             <x-posts-grid :posts="$posts" />
-    
+            {{-- write links to paginate --}}
+            <div class="mt-8 p-4">
+                {{ $posts->links() }}
+            </div>
             {{-- Pagination --}} 
           @else
             <p class="text-center">No posts yet. Please check back later.</p>
   
           @endif
         </main>
-    </x-layout>
+  </x-layout>
 
 
 

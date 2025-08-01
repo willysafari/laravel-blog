@@ -16,7 +16,7 @@
             </div>
 
             <div class="mt-8 md:mt-0">
-                <a href="/" class="text-xs font-bold uppercase">Home Page</a>
+                <a href="/register" class="text-xs font-bold uppercase">Register</a>
 
                 <a href="#" class="bg-blue-500 ml-3 rounded-full text-xs font-semibold text-white uppercase py-3 px-5">
                     Subscribe for Updates
@@ -41,7 +41,7 @@
                                 <img src="./images/mailbox-icon.svg" alt="mailbox letter">
                             </label>
 
-                            <input id="email" type="text" placeholder="Your email address"
+                            <input id="subemail" type="text" placeholder="Your email address"
                                    class="lg:bg-transparent py-2 lg:py-0 pl-4 focus-within:outline-none">
                         </div>
 
@@ -55,4 +55,10 @@
             </div>
         </footer>
     </section>
+    @if (session()->has('success'))
+        <div x-data="{ show: true }" x-show="show" class="fixed bottom-3 right-3 bg-green-500 text-white px-4 py-2 rounded">
+            <p>{{ session('success') }}</p>
+            <button @click="show = false" class="ml-2 text-white">Close</button>
+        </div>
+    @endif
 </body>

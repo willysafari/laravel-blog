@@ -5,54 +5,19 @@ use App\Models\Post;
 use App\Models\Category;
 use Spatie\YamlFrontMatter\YamlFrontMatter;
 use App\Models\User;
+use App\Http\Controllers\PostController;
+use App\Http\Controllers\RegisterController;
 
 
-Route::get('/', function () {
-    // dd(request('search'));
-    $posts = Post::latest();
+Route::get('/',[PostController:: class, 'index'])->name('home');
 
 
-    // search for posts
-    if (request('search')) {
-        $posts->where('title', 'like', '%' . request('search') . '%')
-            ->orWhere('body', 'like', '%' . request('search') . '%')
-            ;
+Route::get('posts/{post:slug}', [PostController::class,'show']);
 
-    }
+Route::get('categories/{category:slug}', [PostController::class,'category']);
 
+Route::get('authors/{author:username}', [PostController::class,'author']);
 
-    return view('posts', [
-        
-        "posts" => $posts->get(),
-        "categories" => Category::all()
-    ]);
-});
+Route::get('register',[RegisterController::class,'create']);
 
-
-Route::get('posts/{post:slug}', function (Post $post) {
-
-    return view('post', [
-        "post" => $post,
-        "categories" => Category::all(),
-    ]);
-});
-
-Route::get('categories/{category:slug}', function (Category $category) {
-
-    return view('posts', [
-        "posts" => $category->posts,
-        "categories" => Category::all()
-        
-    ]);
- 
-});
-
-Route::get('authors/{author:username}', function (User $author) {
-
-    return view('posts', [
-        "posts" => $author->posts,
-        "categories" => Category::all()
-        
-    ]);
-
-});
+Route::post('register',[RegisterController::class,'store']);
