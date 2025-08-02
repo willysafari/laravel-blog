@@ -35,13 +35,15 @@ class RegisterController extends Controller
         // Hash the password before saving
         $data['password'] = bcrypt($data['password']);
 
-        User::create(
-            $data
-        );
+       $user= User::create($data);
+
+             auth()-> login($user);
         // Flash a success message to the session
         session()->flash('success', 'Registration successful! You can now log in.');
         // Optionally, you can redirect or return a response
-        return redirect('/');
+   
+
+         return redirect('/');
 
         
     }
