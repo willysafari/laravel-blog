@@ -34,5 +34,10 @@ return [
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
     ],
+    'mailchimp' => [
+        'api_key' => env('MAILCHIMP_API_KEY'),
+        'server' => env('MAILCHIMP_SERVER_PREFIX'),
+    ],
+
 
 ];
