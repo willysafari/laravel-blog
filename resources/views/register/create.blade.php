@@ -28,7 +28,6 @@
 
                 <div class="mb-6">
                     <label for="email" class="block mb-2 uppercase font-bold text-xs text-gray-700">Email</label>
-
                     <input type="email" name="email" id="email" placeholder="Your Email example @example.com"
                         value="{{ old('email') }}" required class="border border-gray-400 p-2 w-full">
                     @error('email')

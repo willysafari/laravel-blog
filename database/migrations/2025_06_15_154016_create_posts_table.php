@@ -17,6 +17,7 @@ return new class extends Migration
             // add user id to make relation to user
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->string('slug')->unique();
+            $table->string('thumbnail')->nullable();
             $table->string('title');
             $table->text('excerpt')->nullable();
             $table->text('body');
